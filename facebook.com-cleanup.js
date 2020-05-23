@@ -17,7 +17,8 @@
   for (i of ["rightCol", "pagelet_sidebar", "pagelet_dock", "video_chats"]) {
     try{
       document.getElementById(i).childNodes[0].remove();
-  } } catch(e) {}
+    } catch(e) {}
+  }
   for (i of document.getElementsByClassName("mts")) {
     i.remove();
   }
