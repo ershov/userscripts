@@ -1,15 +1,30 @@
 // ==UserScript==
-// @name        - youtube.com - Set Dark Mode
-// @namespace   Yury Ershov
+// @name        youtube.com - Dark Mode
+// @description Automatically switch on dark mode. Useful for incognito tabs.
+// @namespace   yuriy.ershov@gmail.com
 // @match       *://www.youtube.com/*
 // @run-at      document-idle
 // @noframes
-// @grant       none
 // @version     1.0
-// @author      Yury Ershov
-// @description Automatically switch on dark mode. Useful for incognito tabs.
+// @copyright   2020, Yury Ershov <yuriy.ershov@gmail.com>
+// @license     MIT; https://spdx.org/licenses/
+// @author      Yury Ershov <yuriy.ershov@gmail.com>
+
+// @homepageURL  https://github.com/ershov/userscripts
+// @homepageURL  https://greasyfork.org/en/scripts?q=ershov
+// @homepageURL  https://openuserjs.org/scripts/ershov/
+// @supportURL   https://github.com/ershov/userscripts/issues
+
+// @grant       none
 // @inject-into content
 // ==/UserScript==
+
+// ==OpenUserJS==
+// @author       ershov
+// @collaborator ershov
+// ==/OpenUserJS==
+
+/* jshint esversion: 6 */
 
 (function() {
   'use strict';
